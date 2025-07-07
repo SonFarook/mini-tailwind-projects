@@ -1,0 +1,54 @@
+<!doctype html>
+<html lang="en>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./output.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <!-- Background Container -->
+    <div class="bg-slate-200 h-screen flex items-center justify-center">
+      <!-- Main Container -->
+      <div
+        class="bg-white p-8 w-96 rounded-2xl shadow-2xl text-3xl flex flex-col gap-2 text-center"
+      >
+        <h1 class="text-xl font-bold mr-28 my-4">Choose a trial plan</h1>
+        <div class="flex flex-col items-center gap-3">
+          <div class="bg-gray-100 rounded-lg border border-gray-300 w-72 h-full px-1.5 pb-3 flex flex-col items-start hover:border-gray-600 duration-300 has-checked:border-gray-600">
+            <!-- Standard Radio Button -->
+             <div class="
+             ">
+                <input type="radio" name="trial" id="standard" class="peer transform scale-125 ml-4">
+                <label class="text-sm font-semibold" for="standard">Standard</label>
+            </div>
+              <p class="text-[11px]/4 max-w-60 text-left ml-9.5 mt-2">5 TB of space with easy-to-use team management and collaboration tools.</p>
+          </div>
+          <div class="bg-gray-100 rounded-lg border border-gray-300 w-72 h-full px-1.5 pb-3 flex flex-col items-start hover:border-gray-600 duration-300 has-checked:border-gray-600">
+            <!-- Advanced Radio Button -->
+             <div class="
+             ">
+                <input type="radio" name="trial" id="advanced" class="transform scale-125 ml-4">
+                <label class="text-sm  font-bold" for="advanced">Advanced</label>
+            </div>
+              <p class="text-[11px]/4 ml-9.5 mt-2 max-w-60 text-left">As much space as your team needs with sophisticated admin, audit, security and integration capabilities.</p>
+          </div>
+        </div>
+        <div class="flex items-start justify-center mt-4 gap-2">
+          <input type="checkbox" id="terms" class="transform scale-125 ml-4">
+          <label for="terms" class="text-xs/4 text-left mt-[-3px]">
+            I agree to the <a href="">Agreement and Terms</a>. Find out more about how we use and protect your data in our <a href="">Privacy Policy</a>.
+          </label>
+        </div>
+          <div class="flex mt-4 gap-2 mb-4">
+          <input type="checkbox" id="updates" class="transform scale-125 ml-4">
+          <label for="updates" class="text-xs/4 text-left mt-[-2px]">
+            I'd like to receive direct marketing email updates.
+          </label>
+        </div>
+        <button class="bg-slate-950 text-white rounded-sm text-xs py-2.5 hover:cursor-pointer hover:bg-slate-800 active:bg-slate-700 duration-500 mb-3">Start free trial</button>
+        <p class="text-xs font-bold">No credit card needed</p>
+      </div>
+    </div>
+  </body>
+</html>
